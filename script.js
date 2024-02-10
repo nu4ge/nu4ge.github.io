@@ -9,7 +9,7 @@ function showMessage(response) {
     noButton.style.position = "absolute";
 
     // Change image source to "gun.jpg"
-    document.getElementsByClassName("image")[0].src = "images/gun.jpg";
+    document.getElementsByClassName("image")[0].src = "gun.jpg";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -37,7 +37,7 @@ function showMessage(response) {
     yesMessage.textContent = "YAY! Let's do something on the 16th* then !";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/yes.jpg";
+    document.getElementsByClassName("image")[0].src = "yes.jpg";
 
     const yesMessageSmaller = document.getElementById("smaller");
     yesMessageSmaller.textContent = "*unfortunately i'm not free on the 14th oupsi sorryyy";
